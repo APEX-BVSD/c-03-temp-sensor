@@ -5,7 +5,7 @@
 
  #include <DHT.h>
 
-const int dhtPin = 2; 
+const int dhtPin = 7; 
 const int dhtType = DHT11; // defines what kind of DHT sensor we have
 
 DHT dht(dhtPin, dhtType); // create the DHT object

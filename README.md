@@ -13,7 +13,7 @@ The DHT11 has three pins that you will connect to the Arduino:
 | DHT11 Pin | Arduino Pin |
 | ----      | ----        |
 | VCC (+)   | 5V          |
-| Data / Out | Digital Pin 2 |
+| Data / Out | Digital Pin 7 |
 | GND (-)   | GND         |
 
 This image should give you an idea of how the sensor can be wired.
@@ -96,3 +96,18 @@ Summarize your measurements in the table below.
 | Baseline | | | |
 | Temperature | | | |
 | Humidity | | | |
+
+# 5. Reflection
+Answer the following questions.
+1. What is the purpose of the DHT11 library? Why do we use a library instead of writing all the sensor communication code ourselves?
+    > your answer
+2. Why did you use the float data type to store the sensor readings?
+    > your answer
+3. What is the difference between `Serial.print()` and `Serial.println()`?
+    > your answer
+4. What is the purpose of the return statement in your `celsiusToFahrenheit()` function?
+    > your answer
+5. How did the sensor respond to the temperature and humidity tests? Did the readings change immediately?
+    > your answer
+6. How could temperature or humidity measurements be used to control another component, such as an LED or buzzer?
+    > your answer
