@@ -24,7 +24,7 @@ This image should give you an idea of how the sensor can be wired.
 The folks at Adafruit when through the trouble of writing the complex code needed to interpret the electrical signals that come from the DHT11. Using a **library** you can read from the DHT11 using one simple line of code.
 
 To install the library in the Arduino IDE, 
-- go to **Sketch > Include Library > Manage Libraries **. 
+- go to **Sketch > Include Library > Manage Libraries**. 
 - Search for the **DHT sensor library**
 - Install the **DHT sensor library by Adafruit**.
 - If prompted, **Adafruit Unified Sensor**.
